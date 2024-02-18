@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="shortcut icon" href="logs.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="about1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <div class="log">
+                <img src="pxfuel (3).jpg" alt="" class="logo">
+            </div>
+            <div class="name">
+                <h1>Burger Space</h1>
+            </div>
+        </div>
+        <div class="right">
+            <div class="anchor">
+                <a href="burger.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#contact">Contact</a>
+                <a href="https://burgerspace.in/">Visit</a>
+            </div>
+        </div> 
+    </div>
+    <section class="content">
+        <div class="watch">
+            <h1>About Our Food</h1>
+        </div>
+        <div class="food1">
+            <img src="content1.jpg" class="foo">
+            <div class="para1">
+                 <p>From adding more balanced options to our Happy Meal®, to serving up fresh beef Quarter Pounder® burgers that are cooked when you order, we’re always finding ways to show our commitment to our customers and our food. Our Quarter Pounder®* patty is made with 100% fresh beef and cooked right when you order. It’s hot and deliciously juicy and full of flavor. From our chefs, to our dieticians and suppliers, burger space's food experts care deeply about the food you eat. </p>
+            </div>
+            <div class="head2">
+                <h2>Commitment to Quality</h2>
+            </div>
+            <div class="food2">
+                <img src="children.jpg" class="child">
+                <img src="fries.jpg" class="child">
+            </div>
+            <div class="para2">
+                <p>When your kids enjoy a meal that’s delicious and balanced, you’ll enjoy it too.From our chefs, to our dieticians and suppliers, our food experts care deeply about the food you eat.Our nutrition calculator has the Burger space’s menu nutrition information you’re seeking. Learn more about your favorite meals.We’re passionate about our food. That’s why we’re committed to always evolving what matters to you.</p>
+            </div>
+        </div>
+    </section>
+    <footer id="contactSection" class="foot">
+        <div class="f1">
+            <div class="icons">
+                <a href="www.google.com"><i class="fa-brands fa-facebook fa-xl" style="color: #f53b3b;"></i></a>
+                <a href="https://www.youtube.com/channel/UCI78AdiI6f7VKhqW1i4B3Rw"><i class="fa-brands fa-youtube fa-xl" style="color: #f53b3b;"></i></a>
+                <a href="https://www.instagram.com/burgerspace.in/"><i class="fa-brands fa-instagram fa-xl" style="color: #f53b3b;"></i></a>
+            </div>
+            <div class="add">
+                <p>West Fort Juction, Nethaji Rd, near Tip Top Furnitures, Thrissur, Kerala 680004</p>
+            </div>
+            <div class="phone">
+                <i class="fa-solid fa-phone" style="color: #f53b3b;"></i>
+                <p>07902381381</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var contactAnchor = document.querySelector('a[href="#contact"]');
+    
+            var contactSection = document.getElementById('contactSection');
+    
+            contactAnchor.addEventListener('click', function(event) {
+                event.preventDefault();
+                contactSection.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
